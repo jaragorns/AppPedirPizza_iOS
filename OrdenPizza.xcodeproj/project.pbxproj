@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F0446E01CD43FC400592FA8 /* FinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0446DF1CD43FC400592FA8 /* FinViewController.swift */; };
 		0F48EDF51CD1880900340FCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F48EDF41CD1880900340FCB /* AppDelegate.swift */; };
 		0F48EDF71CD1880900340FCB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F48EDF61CD1880900340FCB /* ViewController.swift */; };
 		0F48EDFA1CD1880900340FCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F48EDF81CD1880900340FCB /* Main.storyboard */; };
@@ -14,6 +15,10 @@
 		0F48EDFF1CD1880A00340FCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F48EDFD1CD1880A00340FCB /* LaunchScreen.storyboard */; };
 		0F48EE0A1CD1880A00340FCB /* OrdenPizzaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F48EE091CD1880A00340FCB /* OrdenPizzaTests.swift */; };
 		0F48EE151CD1880A00340FCB /* OrdenPizzaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F48EE141CD1880A00340FCB /* OrdenPizzaUITests.swift */; };
+		0F48EE231CD2B45A00340FCB /* MasaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F48EE221CD2B45A00340FCB /* MasaViewController.swift */; };
+		0F48EE251CD2B6D400340FCB /* QuesoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F48EE241CD2B6D400340FCB /* QuesoViewController.swift */; };
+		0F48EE271CD2BCBA00340FCB /* AdicionalesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F48EE261CD2BCBA00340FCB /* AdicionalesViewController.swift */; };
+		0F48EE291CD2C84C00340FCB /* ConfirmarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F48EE281CD2C84C00340FCB /* ConfirmarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F0446DF1CD43FC400592FA8 /* FinViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinViewController.swift; sourceTree = "<group>"; };
 		0F48EDF11CD1880900340FCB /* OrdenPizza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrdenPizza.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F48EDF41CD1880900340FCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F48EDF61CD1880900340FCB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,10 @@
 		0F48EE101CD1880A00340FCB /* OrdenPizzaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrdenPizzaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F48EE141CD1880A00340FCB /* OrdenPizzaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdenPizzaUITests.swift; sourceTree = "<group>"; };
 		0F48EE161CD1880A00340FCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F48EE221CD2B45A00340FCB /* MasaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasaViewController.swift; sourceTree = "<group>"; };
+		0F48EE241CD2B6D400340FCB /* QuesoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuesoViewController.swift; sourceTree = "<group>"; };
+		0F48EE261CD2BCBA00340FCB /* AdicionalesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdicionalesViewController.swift; sourceTree = "<group>"; };
+		0F48EE281CD2C84C00340FCB /* ConfirmarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +111,11 @@
 				0F48EDF61CD1880900340FCB /* ViewController.swift */,
 				0F48EDF81CD1880900340FCB /* Main.storyboard */,
 				0F48EDFB1CD1880A00340FCB /* Assets.xcassets */,
+				0F48EE221CD2B45A00340FCB /* MasaViewController.swift */,
+				0F48EE241CD2B6D400340FCB /* QuesoViewController.swift */,
+				0F48EE261CD2BCBA00340FCB /* AdicionalesViewController.swift */,
+				0F0446DF1CD43FC400592FA8 /* FinViewController.swift */,
+				0F48EE281CD2C84C00340FCB /* ConfirmarViewController.swift */,
 				0F48EDFD1CD1880A00340FCB /* LaunchScreen.storyboard */,
 				0F48EE001CD1880A00340FCB /* Info.plist */,
 			);
@@ -259,7 +274,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F48EE251CD2B6D400340FCB /* QuesoViewController.swift in Sources */,
+				0F48EE231CD2B45A00340FCB /* MasaViewController.swift in Sources */,
+				0F0446E01CD43FC400592FA8 /* FinViewController.swift in Sources */,
+				0F48EE291CD2C84C00340FCB /* ConfirmarViewController.swift in Sources */,
 				0F48EDF71CD1880900340FCB /* ViewController.swift in Sources */,
+				0F48EE271CD2BCBA00340FCB /* AdicionalesViewController.swift in Sources */,
 				0F48EDF51CD1880900340FCB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -487,6 +507,7 @@
 				0F48EE1B1CD1880A00340FCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0F48EE1C1CD1880A00340FCB /* Build configuration list for PBXNativeTarget "OrdenPizzaTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +516,7 @@
 				0F48EE1E1CD1880A00340FCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0F48EE1F1CD1880A00340FCB /* Build configuration list for PBXNativeTarget "OrdenPizzaUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +525,7 @@
 				0F48EE211CD1880A00340FCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
